@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC7E9F12BE43119005CD2B5 /* Flight_HazardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7E9F02BE43119005CD2B5 /* Flight_HazardApp.swift */; };
+		CCC7E9F32BE43119005CD2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7E9F22BE43119005CD2B5 /* ContentView.swift */; };
+		CCC7E9F52BE4311A005CD2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC7E9F42BE4311A005CD2B5 /* Assets.xcassets */; };
+		CCC7E9F82BE4311A005CD2B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC7E9F72BE4311A005CD2B5 /* Preview Assets.xcassets */; };
+		CCC7EA022BE4311A005CD2B5 /* Flight_HazardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7EA012BE4311A005CD2B5 /* Flight_HazardTests.swift */; };
+		CCC7EA0C2BE4311A005CD2B5 /* Flight_HazardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7EA0B2BE4311A005CD2B5 /* Flight_HazardUITests.swift */; };
+		CCC7EA0E2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7EA0D2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC7E9FE2BE4311A005CD2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC7E9E52BE43118005CD2B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC7E9EC2BE43119005CD2B5;
+			remoteInfo = "Flight Hazard";
+		};
+		CCC7EA082BE4311A005CD2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC7E9E52BE43118005CD2B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC7E9EC2BE43119005CD2B5;
+			remoteInfo = "Flight Hazard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC7E9ED2BE43119005CD2B5 /* Flight Hazard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flight Hazard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC7E9F02BE43119005CD2B5 /* Flight_HazardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_HazardApp.swift; sourceTree = "<group>"; };
+		CCC7E9F22BE43119005CD2B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCC7E9F42BE4311A005CD2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC7E9F72BE4311A005CD2B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCC7E9FD2BE4311A005CD2B5 /* Flight HazardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flight HazardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC7EA012BE4311A005CD2B5 /* Flight_HazardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_HazardTests.swift; sourceTree = "<group>"; };
+		CCC7EA072BE4311A005CD2B5 /* Flight HazardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flight HazardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC7EA0B2BE4311A005CD2B5 /* Flight_HazardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_HazardUITests.swift; sourceTree = "<group>"; };
+		CCC7EA0D2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_HazardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC7E9EA2BE43119005CD2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7E9FA2BE4311A005CD2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7EA042BE4311A005CD2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC7E9E42BE43118005CD2B5 = {
+			isa = PBXGroup;
+			children = (
+				CCC7E9EF2BE43119005CD2B5 /* Flight Hazard */,
+				CCC7EA002BE4311A005CD2B5 /* Flight HazardTests */,
+				CCC7EA0A2BE4311A005CD2B5 /* Flight HazardUITests */,
+				CCC7E9EE2BE43119005CD2B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC7E9EE2BE43119005CD2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7E9ED2BE43119005CD2B5 /* Flight Hazard.app */,
+				CCC7E9FD2BE4311A005CD2B5 /* Flight HazardTests.xctest */,
+				CCC7EA072BE4311A005CD2B5 /* Flight HazardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC7E9EF2BE43119005CD2B5 /* Flight Hazard */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7E9F02BE43119005CD2B5 /* Flight_HazardApp.swift */,
+				CCC7E9F22BE43119005CD2B5 /* ContentView.swift */,
+				CCC7E9F42BE4311A005CD2B5 /* Assets.xcassets */,
+				CCC7E9F62BE4311A005CD2B5 /* Preview Content */,
+			);
+			path = "Flight Hazard";
+			sourceTree = "<group>";
+		};
+		CCC7E9F62BE4311A005CD2B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7E9F72BE4311A005CD2B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCC7EA002BE4311A005CD2B5 /* Flight HazardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7EA012BE4311A005CD2B5 /* Flight_HazardTests.swift */,
+			);
+			path = "Flight HazardTests";
+			sourceTree = "<group>";
+		};
+		CCC7EA0A2BE4311A005CD2B5 /* Flight HazardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7EA0B2BE4311A005CD2B5 /* Flight_HazardUITests.swift */,
+				CCC7EA0D2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift */,
+			);
+			path = "Flight HazardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC7E9EC2BE43119005CD2B5 /* Flight Hazard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC7EA112BE4311A005CD2B5 /* Build configuration list for PBXNativeTarget "Flight Hazard" */;
+			buildPhases = (
+				CCC7E9E92BE43119005CD2B5 /* Sources */,
+				CCC7E9EA2BE43119005CD2B5 /* Frameworks */,
+				CCC7E9EB2BE43119005CD2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flight Hazard";
+			productName = "Flight Hazard";
+			productReference = CCC7E9ED2BE43119005CD2B5 /* Flight Hazard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC7E9FC2BE4311A005CD2B5 /* Flight HazardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC7EA142BE4311A005CD2B5 /* Build configuration list for PBXNativeTarget "Flight HazardTests" */;
+			buildPhases = (
+				CCC7E9F92BE4311A005CD2B5 /* Sources */,
+				CCC7E9FA2BE4311A005CD2B5 /* Frameworks */,
+				CCC7E9FB2BE4311A005CD2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC7E9FF2BE4311A005CD2B5 /* PBXTargetDependency */,
+			);
+			name = "Flight HazardTests";
+			productName = "Flight HazardTests";
+			productReference = CCC7E9FD2BE4311A005CD2B5 /* Flight HazardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC7EA062BE4311A005CD2B5 /* Flight HazardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC7EA172BE4311A005CD2B5 /* Build configuration list for PBXNativeTarget "Flight HazardUITests" */;
+			buildPhases = (
+				CCC7EA032BE4311A005CD2B5 /* Sources */,
+				CCC7EA042BE4311A005CD2B5 /* Frameworks */,
+				CCC7EA052BE4311A005CD2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC7EA092BE4311A005CD2B5 /* PBXTargetDependency */,
+			);
+			name = "Flight HazardUITests";
+			productName = "Flight HazardUITests";
+			productReference = CCC7EA072BE4311A005CD2B5 /* Flight HazardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC7E9E52BE43118005CD2B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CCC7E9EC2BE43119005CD2B5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CCC7E9FC2BE4311A005CD2B5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CCC7E9EC2BE43119005CD2B5;
+					};
+					CCC7EA062BE4311A005CD2B5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CCC7E9EC2BE43119005CD2B5;
+					};
+				};
+			};
+			buildConfigurationList = CCC7E9E82BE43118005CD2B5 /* Build configuration list for PBXProject "Flight Hazard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC7E9E42BE43118005CD2B5;
+			productRefGroup = CCC7E9EE2BE43119005CD2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC7E9EC2BE43119005CD2B5 /* Flight Hazard */,
+				CCC7E9FC2BE4311A005CD2B5 /* Flight HazardTests */,
+				CCC7EA062BE4311A005CD2B5 /* Flight HazardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC7E9EB2BE43119005CD2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC7E9F82BE4311A005CD2B5 /* Preview Assets.xcassets in Resources */,
+				CCC7E9F52BE4311A005CD2B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7E9FB2BE4311A005CD2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7EA052BE4311A005CD2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC7E9E92BE43119005CD2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC7E9F32BE43119005CD2B5 /* ContentView.swift in Sources */,
+				CCC7E9F12BE43119005CD2B5 /* Flight_HazardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7E9F92BE4311A005CD2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC7EA022BE4311A005CD2B5 /* Flight_HazardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7EA032BE4311A005CD2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC7EA0E2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift in Sources */,
+				CCC7EA0C2BE4311A005CD2B5 /* Flight_HazardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC7E9FF2BE4311A005CD2B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC7E9EC2BE43119005CD2B5 /* Flight Hazard */;
+			targetProxy = CCC7E9FE2BE4311A005CD2B5 /* PBXContainerItemProxy */;
+		};
+		CCC7EA092BE4311A005CD2B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC7E9EC2BE43119005CD2B5 /* Flight Hazard */;
+			targetProxy = CCC7EA082BE4311A005CD2B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCC7EA0F2BE4311A005CD2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCC7EA102BE4311A005CD2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC7EA122BE4311A005CD2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flight Hazard/Preview Content\"";
+				DEVELOPMENT_TEAM = W92FJB3KRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-Hazard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCC7EA132BE4311A005CD2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flight Hazard/Preview Content\"";
+				DEVELOPMENT_TEAM = W92FJB3KRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-Hazard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCC7EA152BE4311A005CD2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W92FJB3KRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-HazardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flight Hazard.app/Flight Hazard";
+			};
+			name = Debug;
+		};
+		CCC7EA162BE4311A005CD2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W92FJB3KRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-HazardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flight Hazard.app/Flight Hazard";
+			};
+			name = Release;
+		};
+		CCC7EA182BE4311A005CD2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W92FJB3KRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-HazardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flight Hazard";
+			};
+			name = Debug;
+		};
+		CCC7EA192BE4311A005CD2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W92FJB3KRU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-HazardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flight Hazard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC7E9E82BE43118005CD2B5 /* Build configuration list for PBXProject "Flight Hazard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC7EA0F2BE4311A005CD2B5 /* Debug */,
+				CCC7EA102BE4311A005CD2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC7EA112BE4311A005CD2B5 /* Build configuration list for PBXNativeTarget "Flight Hazard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC7EA122BE4311A005CD2B5 /* Debug */,
+				CCC7EA132BE4311A005CD2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC7EA142BE4311A005CD2B5 /* Build configuration list for PBXNativeTarget "Flight HazardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC7EA152BE4311A005CD2B5 /* Debug */,
+				CCC7EA162BE4311A005CD2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC7EA172BE4311A005CD2B5 /* Build configuration list for PBXNativeTarget "Flight HazardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC7EA182BE4311A005CD2B5 /* Debug */,
+				CCC7EA192BE4311A005CD2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC7E9E52BE43118005CD2B5 /* Project object */;
+}
