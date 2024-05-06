@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct Flight_HazardApp: App {
+  @StateObject private var dataViewModel = DataViewModel()
+
   var body: some Scene {
     WindowGroup {
-      ContentView(airports: .constant([]), flightPlans: .constant([]))
+      ContentView()
+        .environmentObject(dataViewModel)
     }
   }
 }
-    

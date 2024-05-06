@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4278972BE997E60018B201 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4278962BE997E60018B201 /* DataViewModel.swift */; };
 		CCC7E9F12BE43119005CD2B5 /* Flight_HazardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7E9F02BE43119005CD2B5 /* Flight_HazardApp.swift */; };
 		CCC7E9F32BE43119005CD2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7E9F22BE43119005CD2B5 /* ContentView.swift */; };
 		CCC7E9F52BE4311A005CD2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC7E9F42BE4311A005CD2B5 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC4278962BE997E60018B201 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 		CCC7E9ED2BE43119005CD2B5 /* Flight Hazard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flight Hazard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC7E9F02BE43119005CD2B5 /* Flight_HazardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_HazardApp.swift; sourceTree = "<group>"; };
 		CCC7E9F22BE43119005CD2B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC7E9F02BE43119005CD2B5 /* Flight_HazardApp.swift */,
+				CC4278962BE997E60018B201 /* DataViewModel.swift */,
 				CCC7E9F22BE43119005CD2B5 /* ContentView.swift */,
 				CCC7EA1A2BE95392005CD2B5 /* FlightDataService.swift */,
 				CCC7E9F42BE4311A005CD2B5 /* Assets.xcassets */,
@@ -192,7 +195,7 @@
 		CCC7E9E52BE43118005CD2B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4278972BE997E60018B201 /* DataViewModel.swift in Sources */,
 				CCC7E9F32BE43119005CD2B5 /* ContentView.swift in Sources */,
 				CCC7EA1B2BE95392005CD2B5 /* FlightDataService.swift in Sources */,
 				CCC7E9F12BE43119005CD2B5 /* Flight_HazardApp.swift in Sources */,
@@ -436,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-Hazard";
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.flight-hazard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.Flight-Hazard";
+				PRODUCT_BUNDLE_IDENTIFIER = "totaltailwheel.flight-hazard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

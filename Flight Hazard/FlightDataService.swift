@@ -2,11 +2,13 @@
 
 import Foundation
 
-struct Airport: Decodable, Hashable {
+struct Airport: Decodable, Hashable, Identifiable {
+  var id: String { icao_code }
   var icao_code: String
 }
 
-struct FlightPlan: Decodable, Hashable {
+struct FlightPlan: Decodable, Hashable, Identifiable {
+  var id = UUID()
   var departure_airport: Airport
   var destination_airport: Airport
   var departure_time: Date
@@ -27,7 +29,7 @@ struct FlightPlan: Decodable, Hashable {
     destination_airport = try container.decode(Airport.self, forKey: .destination_airport)
 
     let dateFormatter = ISO8601DateFormatter()
-      dateFormatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+    dateFormatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
 
     let dateStr = try container.decode(String.self, forKey: .departure_time)
     guard let date = dateFormatter.date(from: dateStr) else {
