@@ -14,6 +14,7 @@
 		CCC7EA022BE4311A005CD2B5 /* Flight_HazardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7EA012BE4311A005CD2B5 /* Flight_HazardTests.swift */; };
 		CCC7EA0C2BE4311A005CD2B5 /* Flight_HazardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7EA0B2BE4311A005CD2B5 /* Flight_HazardUITests.swift */; };
 		CCC7EA0E2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7EA0D2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift */; };
+		CCC7EA1B2BE95392005CD2B5 /* FlightDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7EA1A2BE95392005CD2B5 /* FlightDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CCC7EA072BE4311A005CD2B5 /* Flight HazardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flight HazardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC7EA0B2BE4311A005CD2B5 /* Flight_HazardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_HazardUITests.swift; sourceTree = "<group>"; };
 		CCC7EA0D2BE4311A005CD2B5 /* Flight_HazardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight_HazardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCC7EA1A2BE95392005CD2B5 /* FlightDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CCC7E9F02BE43119005CD2B5 /* Flight_HazardApp.swift */,
 				CCC7E9F22BE43119005CD2B5 /* ContentView.swift */,
+				CCC7EA1A2BE95392005CD2B5 /* FlightDataService.swift */,
 				CCC7E9F42BE4311A005CD2B5 /* Assets.xcassets */,
 				CCC7E9F62BE4311A005CD2B5 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC7E9F32BE43119005CD2B5 /* ContentView.swift in Sources */,
+				CCC7EA1B2BE95392005CD2B5 /* FlightDataService.swift in Sources */,
 				CCC7E9F12BE43119005CD2B5 /* Flight_HazardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
